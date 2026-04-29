@@ -82,4 +82,63 @@ Output: What sales would want to communicate externally. What they are worried a
 
 This is the answer to "how do you communicate across different stakeholders" — you pressure-test before it goes out, not after.
 
+---
+
+## When to use multiple agents vs alternatives
+
+Not every review needs three agents. The right pattern depends on what you're trying to do.
+
+**Use multiple independent agents when:**
+- The perspectives are genuinely different and would notice different things
+- You don't want one view to contaminate another
+- You need breadth of feedback across distinct lenses
+
+**Use a single agent with sequential personas when:**
+- The perspectives overlap significantly
+- Speed matters more than strict independence
+- You're doing a quick check, not a deep critique
+
+**Use a single adversarial reviewer when:**
+- You want to stress-test one specific dimension
+- You want every possible reason something could fail
+- Brief: "Find every reason to reject this. Be harsh."
+
+**Use an iterative loop when:**
+- You're refining something over multiple drafts
+- Pattern: critique → revise → critique the revision
+- Better for improving quality over time than one-shot assessment
+
+**Use a red team / blue team when:**
+- You're deciding between two options, not evaluating one
+- One agent argues for, one argues against
+
+---
+
+## The synthesis agent pattern
+
+Three independent agents give you breadth but leave you to synthesise. Add a fourth step:
+
+After running your independent reviewers, spawn a synthesis agent that reads all three outputs and produces:
+1. The single most important thing to fix
+2. What is already working
+3. One rewritten version incorporating the key fixes
+
+This keeps the independent views clean while converting them into one actionable output.
+
+---
+
+## What makes a good persona brief
+
+The number of agents matters less than the quality of the persona prompt. A vague "act as a CPO" produces generic feedback. A sharp brief produces something specific and useful.
+
+Good persona brief structure:
+- Who they are and what they care about most
+- What would make them reject / approve this
+- What they would NOT care about (equally important — stops the agent drifting)
+- Output format: specific, not open-ended
+
+The investment should go into writing sharp prompts, not spinning up more agents.
+
+---
+
 Future article: document a real example of using this, then write the LinkedIn piece.
