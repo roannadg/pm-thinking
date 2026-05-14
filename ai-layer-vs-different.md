@@ -19,10 +19,10 @@ If you removed AI, you'd do the same things, just slower.
 
 ## Genuinely different
 
-- Running 3x more discovery conversations per week because synthesis takes 20 minutes not half a day — decisions based on 30 customer calls, not 8
-- Building a prototype or mock spec in AI before the idea ever reaches engineering — stress-tested before you pitch it
-- Feeding 15 call transcripts into a prompt and asking "what assumptions am I making that I haven't validated yet" — that question wasn't practical before
-- Generating competing framings of the same problem and testing them against customer quotes before committing to one
+- **Building a prototype before design or engineering is involved** — you can put something testable in front of users before the idea has reached the team. That changes when you get signal.
+- **Feeding many call transcripts into a prompt and asking "what assumptions am I making that I haven't validated?"** — that question wasn't practical before. You'd never read 20 transcripts looking for your own blind spots.
+- **Generating many different solution directions before committing to one** — instead of the first 3 ideas that come to mind, you can explore 15 different approaches in an hour. You're choosing from a broader solution space, which changes the quality of the decision.
+- **Connecting patterns across disconnected sources** — support tickets, sales objections, NPS comments, and churn reasons in one analysis. Humans look at these separately. AI can show the same underlying problem appearing in different language across different channels.
 
 If you removed AI, you'd do fewer things — not just slower things.
 
@@ -39,3 +39,9 @@ The second answer is where genuine leverage lives.
 ## What this means for AI product work
 
 The same distinction applies when building AI into products. AI that makes existing user behaviour faster is useful. AI that makes something possible that users couldn't do before is the higher bar — and the harder thing to find.
+
+---
+
+## The full list
+
+See [ai-pm-possibilities.md](ai-pm-possibilities.md) for a comprehensive breakdown by PM discipline.
